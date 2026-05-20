@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멀티미디어 파일 삽입</title>
+</head>
+<body>
+    <!-- pdf 파일 -->
+    <object data="media/product.pdf" width="850" height="850"></object>
+
+    <!-- embed : 오래된 컴퓨터에도 사용 가능 -->
+    <embed src="media/spring.mp3">
+
+    <!-- audio : 웹브라우저에 따라 플레이어가 달라진다 -->
+    <audio src="media/spring.mp3" controls loop></audio>
+
+    <p></p>
+
+    <!-- video -->
+    <video src="media/salad.mp4" controls width="800" poster="image/salad.jpg"></video>
+
+    <!-- 소리 제거, 반복 재생, 자동 재생 -->
+    <video src="media/salad.mp4" controls width="600" muted loop autoplay></video>
+</body>
+</html>
