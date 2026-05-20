@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품 소개 페이지</title>
+</head>
+<body>
+    <h1>명탐정 코난</h1>
+
+    <!-- 이미지마다 설명글 -> 구역 : figure -->
+    <figure>
+        <img src="image/shinichi.jpg" alt="kudo shinichi" width="30%">
+        <figcaption>쿠도 신이치</figcaption>
+    </figure>
+
+    <figure>
+        <img src="image/heiji.jpg" alt="hattori heiji" width="30%">
+        <figcaption>핫토리 헤이지</figcaption>
+    </figure>
+
+    <figure>
+        <img src="image/kid.jpg" alt="kaito kid" width="30%">
+        <figcaption>괴도 키드</figcaption>
+    </figure>
+
+    <figure>
+        <img src="image/jinpei.jpg" alt="matsuda jinpei" width="30%">
+        <figcaption>추신: 당신을 꽤 좋아했어</figcaption>
+    </figure>
+
+    <br>
+
+    <h1>에반게리온</h1>
+
+    <!-- 여러 이미지에 같은 설명글 붙이기 -->
+    <figure>
+        <img src="image/eoe.jpg" alt="end of evangelion">
+        <img src="image/thirdimpact.jpg" alt="third impact">
+        <figcaption>에반게리온</figcaption>
+    </figure>
+
+    <br>
+
+    <!-- srcset 속성 : 조건에 따라 다른 이미지 표시 -->
+    <figure>
+        <img src="image/earth.jpg"
+        srcset="image/earth2.jpg 700w, image/earth.jpg 1000w"
+        alt="the movements of the earth">
+    </figure>
+</body>
+</html>
