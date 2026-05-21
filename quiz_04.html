@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지원서</title>
+</head>
+<body>
+    <h1>프런트엔드 개발자 지원서</h1>
+    <p>HTML, CSS를 비롯한 웹 개발 관련 기술에 대한 이해와 경험이 있는 분을 찾습니다.</p>
+    <hr>
+
+    <form>
+        <p><b>개인정보</b></p>
+        <blockquote>
+            <label for="name">이름</label>
+            <input type="text" id="name" placeholder="공백 없이 입력하세요.">
+            <br>
+            <label for="phone">연락처</label>
+            <input type="tel" id="phone">
+        </blockquote>
+
+        <p><b>지원 분야</b></p>
+        <blockquote>
+            <input type="radio" name="field" id="web_p">
+            <label for="web_p">웹 퍼블리싱</label>
+            <br>
+            <input type="radio" name="field" id="web_d"> 
+            <label for="web_d">웹 애플리케이션 개발</label>
+            <br>
+            <input type="radio" name="field" id="env">
+            <label for="env">개발 환경 개선</label>
+        </blockquote>
+
+        <label for="apply"><b>지원 동기</b></label>
+        <p></p>
+        <textarea id="apply" rows="5" cols="60" placeholder="본사 지원 동기를 간략히 써주세요."></textarea>
+        <br>
+        <input type="submit" value="접수하기">
+        <input type="reset" value="다시 쓰기">
+    </form>
+</body>
+</html>
