@@ -6,6 +6,13 @@
     <title>Document</title>
 
     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        } /*화면 정중앙에 배치*/
         .container {
             width: 500px;
             height: 500px;
@@ -13,6 +20,9 @@
             gap: 10px;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(3, 1fr);
+        }
+        .container > div {
+            border: 1px solid #222;
             text-align: center;
         }
         .container > div:nth-child(odd) {
