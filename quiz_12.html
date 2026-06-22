@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            margin: 20px;
+            border: 1px solid #222;
+            border-collapse: collapse;
+            width: 200px;
+        }
+        table caption {
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        table td {
+            font-size: 0.85rem;
+            border: 1px solid #222;
+            padding: 8px;
+        }
+        tr:nth-child(odd) td {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>웹 개발</caption>
+
+        <tbody>
+            <tr><td>HTML</td></tr>
+            <tr><td>CSS</td></tr>
+            <tr><td>Javascript</td></tr>
+            <tr><td>Node.js</td></tr>
+            <tr><td>Typescript</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
